@@ -1,14 +1,14 @@
 {
-  "name": "nextjs-mdb",
-  "version": "4.25.3",
-  "description": "Integration example for MDBReact and Next.js create-next-app",
+  "name": "liber-mundi",
+  "version": "1.0.0",
+  "description": "Библиотека полезных и интересных книг",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "author": "Jakub Chmura",
-  "repository": "https://github.com/JakubChm/nextjs-mdbreact.git",
+  "author": "Федор Ендовицкий",
+  "repository": "https://github.com/RusFjord/liber-mundi.git",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",

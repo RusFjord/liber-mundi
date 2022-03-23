@@ -1,11 +1,11 @@
-import { MDBContainer } from 'mdbreact';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import { MDBContainer } from 'mdbreact'
+import Header from './Header'
+import Footer from './Footer'
 
 function Layout(props) {
   return (
     <>
-      <NavBar />
+      <Header />
       <MDBContainer>{props.children}</MDBContainer>
       <Footer />
       <style jsx global>{`
@@ -13,7 +13,7 @@ function Layout(props) {
           min-height: 100vh;
           display: flex;
           flex-direction: column;
-          justify-content: space-between;
+          
         }
       `}</style>
     </>
